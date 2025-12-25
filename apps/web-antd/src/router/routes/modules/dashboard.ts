@@ -31,6 +31,15 @@ const routes: RouteRecordRaw[] = [
           title: $t('page.dashboard.workspace'),
         },
       },
+      {
+        name: 'Hello',
+        path: '/hello',
+        component: () => import('#/views/dashboard/hello/hello.vue'),
+        meta: {
+          icon: 'lucide:hand-wave',
+          title: $t('page.dashboard.hello'),
+        },
+      },
     ],
   },
 ];
