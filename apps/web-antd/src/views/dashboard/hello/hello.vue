@@ -115,7 +115,7 @@ function handleCardClick(route: string) {
         <!-- 底部提示 -->
         <div class="mt-12 text-center">
           <p class="text-gray-500 dark:text-gray-500">
-            如有任何问题，请随时联系系统管理员
+            如有任何问题，请随时联系系统管理员-ok
           </p>
         </div>
       </div>
